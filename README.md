@@ -2,6 +2,7 @@
 
 <img width="1175" height="655" alt="insurance_visual" src="https://github.com/user-attachments/assets/7b229774-a5f8-42e2-a596-2c0f04b15762" />
 
+
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
 ![Python](https://img.shields.io/badge/Python-Analysis-blue)
 ![SQL](https://img.shields.io/badge/SQL-Queries-green)
