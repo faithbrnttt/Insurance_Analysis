@@ -1,150 +1,153 @@
 Insurance Analytics Portfolio
-Overview
 
-This project analyzes automobile insurance policyholder data to identify trends in customer value, claim behavior, policy characteristics, and underwriting risk factors.
 
-Using a dataset of 9,134 policyholders, the analysis explores how demographics, coverage choices, vehicle characteristics, and sales channels influence premiums, claims, and customer lifetime value (CLV).
 
-The repository combines multiple insurance-focused dashboards and analyses built from the same underlying dataset to demonstrate insurance analytics, business intelligence reporting, and risk assessment techniques.
 
-Dataset
 
-Records: 9,134 policyholders
 
-Key Fields
+
+
+Project Overview
+
+This project analyzes automobile insurance policyholder data to uncover trends in customer value, claim behavior, policy performance, and underwriting risk.
+
+Using a dataset of 9,134 policyholders, the analysis examines how customer demographics, vehicle characteristics, coverage selections, and sales channels influence insurance outcomes.
+
+The repository consolidates several insurance-focused analyses and dashboards built from a common dataset to demonstrate business intelligence and insurance analytics techniques.
+
+Dataset Summary
+Metric	Value
+Total Policyholders	9,134
+States Represented	5
+Coverage Types	3
+Sales Channels	4
+Vehicle Classes	6
+Key Measure	Customer Lifetime Value
+Key Data Fields
 Customer Lifetime Value (CLV)
-Total Claim Amount
 Monthly Premium Auto
+Total Claim Amount
 Coverage Type
 Policy Type
+Employment Status
+Income
 Vehicle Class
 Vehicle Size
-Income
-Employment Status
 Sales Channel
-Customer Response
 State
-Tools Used
-Python (Pandas)
-SQL
-Power BI
-Excel
+Marketing Response
 Executive Insights
-Customer Retention Opportunity
+Customer Engagement Opportunity
+Metric	Value
+Positive Responses	1,306
+Total Customers	9,134
+Response Rate	14.3%
 
-Only 14.3% of customers responded positively to renewal or marketing offers.
+Only a small percentage of customers responded positively to renewal or marketing campaigns.
 
-Business Impact
+Business Implication
 
-This suggests significant opportunity to improve:
+Improving engagement and retention initiatives could significantly increase policy renewals and long-term customer value.
 
-Renewal campaigns
-Customer engagement programs
-Retention strategies
-
-Even small improvements in response rates could substantially increase policy retention and customer lifetime value.
-
-Premium Coverage Generates the Highest Customer Value
-
-Average Customer Lifetime Value by Coverage Type:
-
-Coverage	Avg CLV
+Premium Coverage Produces the Highest Value Customers
+Coverage Type	Average CLV
 Basic	$7,191
 Extended	$8,790
 Premium	$10,896
-Insight
 
-Customers purchasing premium coverage generate approximately 51% more lifetime value than those purchasing basic coverage.
+Premium coverage customers generate approximately 51% more lifetime value than customers with basic coverage.
 
-Business Impact
-Prioritize premium coverage upsell opportunities
-Target high-value customers for retention programs
-Focus cross-selling efforts on extended coverage customers
-Claim Costs Vary Significantly by Employment Status
+Business Implication
 
-Average Claim Amount:
+Premium coverage represents the most valuable customer segment and offers strong opportunities for targeted retention and upselling efforts.
 
-Employment Status	Avg Claim
+Employment Status Influences Claims Activity
+Employment Status	Average Claim Amount
 Unemployed	$600
 Retired	$490
 Disabled	$475
 Medical Leave	$472
 Employed	$358
-Insight
 
-Unemployed customers exhibit substantially higher average claim amounts than employed policyholders.
+Claim amounts are noticeably higher among unemployed policyholders compared to employed customers.
 
-Business Impact
-Potential indicator of increased risk exposure
-Supports enhanced underwriting review
-Useful segmentation variable for pricing models
-Luxury Vehicles Drive Higher Premium Revenue
+Business Implication
 
-Average Monthly Premium:
+Employment status may serve as a useful segmentation variable for risk assessment and underwriting analysis.
 
-Vehicle Class	Avg Premium
+Luxury Vehicles Generate Higher Premium Revenue
+Vehicle Class	Avg Monthly Premium
 Luxury SUV	$213
 Luxury Car	$212
 Sports Car	$122
 SUV	$120
 Four-Door Car	$77
 Two-Door Car	$77
-Insight
 
-Luxury vehicle owners pay nearly three times the premium of standard vehicle owners.
+Luxury vehicle owners contribute substantially higher premium revenue per policy.
 
-Business Impact
-Luxury segments generate higher revenue per policy
-Greater exposure to high-severity claims
-Require careful balancing of premium adequacy and risk
-Branch and Call Center Customers Show Higher Value
+Business Implication
 
-Average Customer Lifetime Value:
+While luxury vehicles increase premium income, they may also carry higher claim severity exposure, requiring balanced pricing strategies.
 
-Sales Channel	Avg CLV
+Branch and Call Center Customers Deliver Higher Value
+Sales Channel	Average CLV
 Branch	$8,120
 Call Center	$8,100
 Agent	$7,958
 Web	$7,780
-Insight
 
-Customers acquired through branch and call center channels demonstrate the highest average lifetime value.
+Customers acquired through branch and call center channels exhibit the highest average customer lifetime value.
 
-Business Impact
-High-touch acquisition channels may attract more valuable customers
-Marketing investment decisions can be informed by channel profitability
-Supports channel performance measurement
-Dashboard Areas
+Business Implication
+
+Acquisition channel performance can help guide marketing investment and customer acquisition strategies.
+
+Dashboard Components
 Executive Dashboard
+
+Tracks portfolio performance through:
+
 Total Customers
 Average Customer Lifetime Value
 Average Claim Amount
 Average Monthly Premium
 Response Rate
 Claims Dashboard
+
+Focuses on:
+
 Claim Amount by Employment Status
-Claim Trends by Policy Type
-Claim Distribution by Vehicle Class
-High-Risk Customer Segments
+Claims by Policy Type
+Vehicle Risk Segmentation
+High-Risk Customer Groups
 Customer Analytics Dashboard
+
+Includes:
+
 Customer Lifetime Value Analysis
-Coverage Distribution
+Coverage Mix
 Policy Distribution
-Demographic Segmentation
+Demographic Trends
 Financial Dashboard
-Premium Revenue Analysis
-Claim Cost Analysis
-Customer Profitability Indicators
-Coverage Performance Comparison
-Skills Demonstrated
-Insurance Analytics
-Claims Analysis
-Customer Lifetime Value Analysis
-Risk Segmentation
-Data Cleaning
-Exploratory Data Analysis
-Dashboard Development
-Power BI Reporting
-Business Intelligence
-KPI Development
-Data Storytelling
+
+Measures:
+
+Premium Revenue
+Claims Cost
+Coverage Performance
+Customer Profitability
+Key Takeaways
+Finding	Business Value
+Premium coverage customers generate highest CLV	Supports upsell initiatives
+Unemployed customers show higher claim amounts	Improves risk segmentation
+Luxury vehicles pay significantly higher premiums	Supports pricing strategy
+Branch and call center customers provide higher value	Guides acquisition investment
+Response rates remain low	Opportunity for retention improvements
+Technical Skills Demonstrated
+Analytics	BI & Reporting	Data Management
+Exploratory Data Analysis	Power BI	SQL
+Insurance Analytics	Dashboard Design	Data Cleaning
+Risk Assessment	KPI Development	Data Modeling
+Claims Analysis	Data Storytelling	Excel
+Customer Segmentation	Executive Reporting	Python
