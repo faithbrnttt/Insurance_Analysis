@@ -196,6 +196,3 @@ Measures:
 
 ---
 
-## Project Summary
-
-Developed a multi-dashboard insurance analytics solution analyzing 9,134 policyholders to identify drivers of customer lifetime value, claim behavior, premium performance, and customer segmentation. Delivered actionable insights supporting underwriting, retention, and portfolio management decisions using Power BI, SQL, Excel, and Python.
